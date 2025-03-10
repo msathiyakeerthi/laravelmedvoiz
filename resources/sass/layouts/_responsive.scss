@@ -1,0 +1,210 @@
+/* ==========================================================================           
+ *
+ *    BACKEND RESPONSIVE STYLES
+ *
+ * ========================================================================== */
+@media (max-width: 768px) {
+    .header-brand-img {
+        display: none;
+    }
+
+    .header-brand {
+        min-width: 30px!important;
+    }
+
+    .app-header .header-brand-img.mobile-logo {
+        display: block!important;
+        height: 3rem;
+    }
+
+    #search-bar {
+        display: none;
+    }
+
+    .header-notify {
+        display: none;
+    }
+
+    .header-expand {
+        display: none;
+    }
+
+    #tts-body-minify {
+        padding-left: 1.5rem!important;
+    }
+
+    #listen-text {
+        margin-right: 0!important;
+        margin-bottom: 1rem;
+    }
+}
+
+
+/* ==========================================================================           
+ *
+ *    FRONTEND RESPONSIVE STYLES
+ *
+ * ========================================================================== */
+@media (max-width: 768px) {
+
+    #main-wrapper .navbar-special {
+        padding-left: 0!important;
+        padding-right: 0!important;
+        margin-top: 0;
+        box-shadow: none!important;
+    }
+
+    #main-wrapper .navbar .navbar-brand img {
+        max-width: 100%!important;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+
+    .oblique {
+        display: none;
+    }
+    
+    form {
+        width: 100%;
+    }
+
+    .central-banner {
+        .pl-9 {
+            padding-left: 0!important;
+        }
+
+        .pr-9 {
+            padding-right: 0!important;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        .image-container {
+            display: none;
+        }
+
+    }
+
+    #login-responsive {
+        .card-body {
+            padding: 5rem 1.5rem!important;
+        }
+
+        #login-footer {
+            position: relative;
+            left: auto!important;
+        }
+    }
+
+    #login-background {
+        display: none;
+    }
+
+    .nav-item {
+        width: 100%!important;
+    }
+
+    #footer {        
+        padding-bottom: 0!important;
+
+        #footer-logo {
+            text-align: center;
+            padding-right: 15px!important;
+            padding-left: 15px!important;
+            margin-bottom: 2rem;
+
+            #frontend-local {
+                float: none;
+            }
+        }        
+
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        h5 {
+            text-align: center;
+        }
+
+        ul {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .footer-connect {
+            padding-right: 15px!important;
+            padding-left: 15px!important;
+        }
+    }
+
+    #copyright {
+
+        .copyright-left {
+            float: none!important;
+            text-align: center;
+        }
+
+        div {
+            padding-right: 80px;
+        }
+    }
+
+    .frontend-body {
+
+        .navbar {
+            padding: 0;
+        }
+        
+        .navbar-collapse {
+            background: #FFF;
+            padding: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+        }
+    }
+
+    .policy {
+
+        .card-body {
+            padding: 4rem 1rem!important;
+        }
+    }
+
+    #prices-wrapper {
+        ul.nav {
+            padding-left: 4rem;
+        }
+    }
+
+    #about-wrapper {
+        #about-title {
+            text-align: center;
+            padding-right: 15px;
+        }
+
+        #about-info {
+            text-align: center;
+
+            p {
+                text-align: justify;
+            }
+        }
+        
+    } 
+
+    #live-transcribe-form .card-body {
+        padding: 1rem  0rem 0 0.5rem;
+    }
+
+    #transcribe-record .card-body {
+        padding: 1rem  0rem 0 0.5rem;
+    }
+}
